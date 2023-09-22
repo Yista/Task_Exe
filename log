@@ -1,0 +1,11 @@
+ * Serving Flask app 'server'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.4.17:8000
+Press CTRL+C to quit
+127.0.0.1 - - [22/Sep/2023 23:12:36] "PATCH /update_item/item3 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2023 23:12:49] "OPTIONS /options_example HTTP/1.1" 200 -
+185.167.96.146 - - [22/Sep/2023 23:15:38] code 400, message Bad request version ('À\x14À')
+185.167.96.146 - - [22/Sep/2023 23:15:38] "\x16\x03\x01\x00u\x01\x00\x00q\x03\x03ø.üÇw\x1cKA8Èw\x8c\x07mß¤U'j\x10\x1frGÇxý·Û«\x19lX\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
